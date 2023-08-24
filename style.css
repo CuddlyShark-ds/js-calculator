@@ -1,0 +1,36 @@
+.outerCalculator{
+
+}
+
+.calculatorContainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 5px;
+    max-width: 255px;
+}
+
+.display{
+    height: 50px;
+    border: 1px solid black;
+}
+
+.btnContainer{
+
+}
+
+.btn{
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
+
+.calculateBtn{
+    display: flex;
+    height: 50px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
