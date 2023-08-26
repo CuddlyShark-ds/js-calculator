@@ -1,18 +1,26 @@
-.outerCalculator{
+body{
+    display: flex;
+    justify-content: center;
+}
 
+.outerCalculator{
+    max-width: 255px;
+    padding: 5px;
+    background-color: darkgray;
+    box-shadow: 3px 3px 5px;
 }
 
 .calculatorContainer{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     gap: 5px;
     max-width: 255px;
 }
 
 .display{
     height: 50px;
-    border: 1px solid black;
+    border: 2px solid black;
+    background-color: lightgray;
 }
 
 .btnContainer{
@@ -23,6 +31,7 @@
     height: 50px;
     width: 50px;
     margin: 5px;
+    box-shadow: 2px 2px 3px;
 }
 
 .calculateBtn{
@@ -30,6 +39,7 @@
     height: 50px;
     background-color: lightgrey;
     border: 1px solid black;
+    box-shadow: 2px 2px 3px;
     justify-content: center;
     align-items: center;
     font-size: 50px;
